@@ -1,0 +1,22 @@
+uci_id: 45
+name: Heart Disease
+repository_url: https://archive.ics.uci.edu/dataset/45/heart+disease
+data_url: https://archive.ics.uci.edu/static/public/45/data.csv
+abstract: 4 databases: Cleveland, Hungary, Switzerland, and the VA Long Beach
+area: Health and Medicine
+tasks: ['Classification']
+characteristics: ['Multivariate']
+num_instances: 303
+num_features: 13
+feature_types: ['Categorical', 'Integer', 'Real']
+demographics: ['Age', 'Sex']
+target_col: ['num']
+index_col: None
+has_missing_values: yes
+missing_values_symbol: NaN
+year_of_dataset_creation: 1989
+last_updated: Fri Nov 03 2023
+dataset_doi: 10.24432/C52P4X
+creators: ['Andras Janosi', 'William Steinbrunn', 'Matthias Pfisterer', 'Robert Detrano']
+intro_paper: {'ID': 231, 'type': 'NATIVE', 'title': 'International application of a new probability algorithm for the diagnosis of coronary artery disease.', 'authors': 'R. Detrano, A. J�nosi, W. Steinbrunn, M. Pfisterer, J. Schmid, S. Sandhu, K. Guppy, S. Lee, V. Froelicher', 'venue': 'American Journal of Cardiology', 'year': 1989, 'journal': None, 'DOI': None, 'URL': 'https://www.semanticscholar.org/paper/a7d714f8f87bfc41351eb5ae1e5472f0ebbe0574', 'sha': None, 'corpus': None, 'arxiv': None, 'mag': None, 'acl': None, 'pmid': '2756873', 'pmcid': None}
+

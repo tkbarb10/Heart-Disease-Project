@@ -1,0 +1,5 @@
+- Sex is one-hot-encoded, change to categorical?
+- Rename columns so they're complete words
+- Access to other attributes?  Maybe helpful in building app
+- Target is encoded, change to a string that's readable?
+- 
