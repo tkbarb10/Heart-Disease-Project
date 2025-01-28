@@ -1,1 +1,5 @@
  - Handle missing values
+ - Handle outliers (Resting BP, Cholesterol)
+ - Will need to convert certain columns to category to 
+    avoid any issues while modeling 
+    (Sex, fasting_blood_sugar, Resting ECG)

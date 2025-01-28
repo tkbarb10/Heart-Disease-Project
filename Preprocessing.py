@@ -7,7 +7,7 @@ y.drop(missing_indexes, inplace = True)
 
 # === Renaming columns ===
 
-predictor_columns = X.columns.list()
+predictor_columns = X.columns
 
 new_names = ['Age', 'Sex', 'Chest_Pain_Type', 'Resting_BP(mm HG)', 
              'Cholesterol(mg/dl)', 'Fasting_Blood_Sugar(> 120 mg/dl)',
@@ -21,4 +21,4 @@ X = X.rename(columns = new_name_dict)
 
 # Changing column types to be represented more appropriately for classification
 
-X['Chest_Pain_Type'].head()
+X.dtypes
